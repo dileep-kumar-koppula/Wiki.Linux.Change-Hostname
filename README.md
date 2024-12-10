@@ -1,5 +1,18 @@
-# hostnamectl set-hostname linuxconfig
+# Changing the Hostname in Linux
 
-// edit the /etc/hosts file to reflect the change
+To change the hostname of your Linux system, you can use the following commands:
 
-# nano /etc/hostname
++ Set the new hostname
+```bash
+hostnamectl set-hostname linuxconfig
+```
+
++ Edit the /etc/hosts file to reflect the change
+```bash
+nano /etc/hosts
+```
+
++ Edit the /etc/hostname file to set the new hostname
+```bash
+nano /etc/hostname
+```
